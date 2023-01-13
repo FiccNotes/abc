@@ -26,23 +26,37 @@
             },
             "attrs": {
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
             "shape": "actor",
-            "id": "ac405d99-df0a-427d-970b-2efd6c3e8929",
             "zIndex": 1,
+            "id": "ac405d99-df0a-427d-970b-2efd6c3e8929",
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "外部实体",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "c613c5b8-3c06-4182-881a-f54e9077215a",
+                  "title": "新STRIDE威胁",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "欺骗",
+                  "description": "为这种威胁提供一个描述",
+                  "mitigation": "为这种威胁提供缓解或预防措施",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": "3"
+                }
+              ]
             }
           },
           {
@@ -86,7 +100,8 @@
         ]
       }
     ],
-    "reviewer": "2"
+    "reviewer": "2",
+    "threatTop": 1
   },
   "version": "2.0.0"
 }
