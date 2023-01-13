@@ -6,7 +6,16 @@
   },
   "detail": {
     "contributors": [],
-    "diagrams": [],
+    "diagrams": [
+      {
+        "name": "",
+        "title": "新STRIDE图",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.0.0"
+      }
+    ],
     "reviewer": "2"
   }
 }
