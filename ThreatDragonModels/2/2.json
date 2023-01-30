@@ -9,115 +9,12 @@
     "diagrams": [
       {
         "name": "",
-        "title": "新STRIDE图",
+        "title": "222",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.0.0",
-        "cells": [
-          {
-            "position": {
-              "x": 312,
-              "y": 399
-            },
-            "size": {
-              "width": 128,
-              "height": 60
-            },
-            "shape": "trust-boundary-box",
-            "id": "5eb3b5b7-3f90-4a09-8593-2c67a7d74abe",
-            "zIndex": -1,
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 320,
-              "y": 160
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "body": {
-                "stroke": "red",
-                "strokeWidth": 3,
-                "strokeDasharray": null
-              }
-            },
-            "shape": "actor",
-            "zIndex": 1,
-            "id": "ac405d99-df0a-427d-970b-2efd6c3e8929",
-            "data": {
-              "type": "tm.Actor",
-              "name": "Actor",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "providesAuthentication": false,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "id": "c613c5b8-3c06-4182-881a-f54e9077215a",
-                  "title": "新STRIDE威胁",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "欺骗",
-                  "description": "为这种威胁提供一个描述",
-                  "mitigation": "为这种威胁提供缓解或预防措施",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 1,
-                  "score": "3"
-                }
-              ]
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
-                "targetMarker": {
-                  "name": "classic"
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "ea1720b3-a683-489e-9a49-8b79c5c61b71",
-            "source": {
-              "x": 550,
-              "y": 270
-            },
-            "target": {
-              "x": 650,
-              "y": 370
-            }
-          }
-        ]
+        "cells": []
       },
       {
         "name": "",
