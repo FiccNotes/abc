@@ -17,6 +17,26 @@
         "cells": [
           {
             "position": {
+              "x": 312,
+              "y": 399
+            },
+            "size": {
+              "width": 128,
+              "height": 60
+            },
+            "shape": "trust-boundary-box",
+            "id": "5eb3b5b7-3f90-4a09-8593-2c67a7d74abe",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 320,
               "y": 160
             },
@@ -36,7 +56,7 @@
             "id": "ac405d99-df0a-427d-970b-2efd6c3e8929",
             "data": {
               "type": "tm.Actor",
-              "name": "外部实体",
+              "name": "Actor",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
